@@ -1,4 +1,4 @@
-# Pipe Puzzle Solver
+# Minesweeper Solver
 
 This project is a Python-based solver (search algorithm) for the Minesweeper game. The solver takes a grid with given numbers and mines and determines the correct configuration of mines on the board. It ensures that all numbered cells correctly reflect the number of adjacent mines while revealing all possible safe cells.
 
