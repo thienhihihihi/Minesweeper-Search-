@@ -5,39 +5,43 @@ This project is a Python-based solver (search algorithm) for the Minesweeper gam
 ## Features
 
 - Solves minesweeper of:
+  ```
   +5x5 grid (easy)
+  ```
   +7x7 grid (medium)
+  ```
   +10x10 grid (hard)
+  ```
   +20x20 grid (very hard)
+  ```
 
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/trungdung1711/pipe-puzzle-search-algorithm.git
+    git clone https://github.com/thienhihihihi/Minesweeper-Search-
     ```
 2. Navigate to the project directory:
     ```sh
-    cd /pipe-puzzle-search-algorithm
+    cd /Minesweeper-Search-
     ```
-3. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+
 
 ## Usage
 
-1. Prepare your puzzle input file in the specified format in /data and also import them into main.py to create the state of a grid:
+1. Enter the following command to run the program:
     ```sh
-    cp data1.py dataxx.py
-3. Choose different types of search algorithms or heuristic function (h(n) if informed search) and get the solution node (containing the goal state)
-4. Run the solver:
+    python mine.py
+
+2. The program will ask you to enter the number of testcases you want to try
     ```sh
-    python main.py solve -d 6 -a 5 -e 5 -i true -s true
-    python main.py --help or python main.py solve --help for more information
+   Test case 1: 5x5 board
+   Test case 2: 7x7 board
+   Test case 3: 10x10 board
+   Test case 4: 20x20 board
     ```
-5. View the solution output by simple pygame and matplotlib
+3. View the solution output 
 
 ## Contributing
 
@@ -45,8 +49,3 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 
-
-
-## Contact
-
-For any questions or suggestions, please open an issue or contact me at [dung.lebk2210573@hcmut.edu.vn](mailto:dung.lebk2210573@hcmut.edu.vn).
