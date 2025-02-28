@@ -5,13 +5,13 @@ This project is a Python-based solver (search algorithm) for the Minesweeper gam
 ## Features
 
 - Solves minesweeper of:
-  ```
+
   +5x5 grid (easy)
-  ```
+ 
   +7x7 grid (medium)
-  ```
+
   +10x10 grid (hard)
-  ```
+  
   +20x20 grid (very hard)
   
 
