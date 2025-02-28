@@ -13,7 +13,7 @@ This project is a Python-based solver (search algorithm) for the Minesweeper gam
   +10x10 grid (hard)
   ```
   +20x20 grid (very hard)
-  ```
+  
 
 
 ## Installation
